@@ -53,142 +53,89 @@ html, body, [data-testid="stAppViewContainer"], .stApp {
     linear-gradient(180deg,#FFF9FC 0%,#FDF0F6 52%,#FFF8FB 100%) !important;
   color:var(--text) !important;
 }
-
 [data-testid="stHeader"] {background:rgba(255,249,252,.96) !important;}
 [data-testid="stToolbar"] {color:var(--rose-900) !important;}
-
 section[data-testid="stSidebar"] {
   background:linear-gradient(180deg,#FDE8F1 0%,#F8D8E6 100%) !important;
   border-right:1px solid #E8AFC7 !important;
 }
 section[data-testid="stSidebar"] * {color:var(--rose-950) !important;}
-section[data-testid="stSidebar"] [role="radiogroup"] label {
-  padding:7px 9px;
-  border-radius:10px;
-  margin:2px 0;
-}
-section[data-testid="stSidebar"] [role="radiogroup"] label:hover {
-  background:rgba(255,255,255,.58);
-}
-
-h1,h2,h3,h4,h5,h6,
-[data-testid="stMarkdownContainer"],
-[data-testid="stMarkdownContainer"] p,
-[data-testid="stMarkdownContainer"] li,
-.stCaptionContainer,
-.stCaptionContainer p,
-label,
-.stText, .stMarkdown,
-p, span {color:var(--text);}
-
-h1 {
-  color:var(--rose-950) !important;
-  font-weight:800 !important;
-  letter-spacing:-0.02em;
-}
-h2,h3 {color:var(--rose-900) !important; font-weight:750 !important;}
+section[data-testid="stSidebar"] [role="radiogroup"] label {padding:7px 9px;border-radius:10px;margin:2px 0;}
+section[data-testid="stSidebar"] [role="radiogroup"] label:hover {background:rgba(255,255,255,.58);}
+h1,h2,h3,h4,h5,h6,[data-testid="stMarkdownContainer"],[data-testid="stMarkdownContainer"] p,[data-testid="stMarkdownContainer"] li,.stCaptionContainer,.stCaptionContainer p,label,.stText,.stMarkdown,p,span {color:var(--text);}
+h1 {color:var(--rose-950) !important;font-weight:800 !important;letter-spacing:-0.02em;}
+h2,h3 {color:var(--rose-900) !important;font-weight:750 !important;}
 [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p {color:var(--muted) !important;}
-
-/* KPI cards */
 div[data-testid="stMetric"] {
-  background:rgba(255,255,255,.92) !important;
+  background:rgba(255,255,255,.95) !important;
   border:1px solid var(--border) !important;
   padding:15px 16px !important;
   border-radius:16px !important;
   box-shadow:0 10px 26px rgba(105,45,78,.10) !important;
 }
-div[data-testid="stMetric"] label {color:var(--rose-700) !important; font-weight:700 !important;}
-div[data-testid="stMetricValue"] {color:var(--rose-950) !important; font-weight:800 !important;}
+div[data-testid="stMetric"] label {color:var(--rose-700) !important;font-weight:700 !important;}
+div[data-testid="stMetricValue"] {color:var(--rose-950) !important;font-weight:800 !important;}
 div[data-testid="stMetricDelta"] {color:var(--rose-700) !important;}
-
-/* Containers / cards */
 [data-testid="stVerticalBlockBorderWrapper"] {
-  background:rgba(255,255,255,.78) !important;
+  background:rgba(255,255,255,.86) !important;
   border:1px solid var(--border) !important;
   border-radius:16px !important;
   box-shadow:0 8px 22px rgba(105,45,78,.07) !important;
 }
-.card {
-  background:rgba(255,255,255,.92);
-  border:1px solid var(--border);
-  border-radius:16px;
-  padding:16px;
-  margin-bottom:14px;
-  box-shadow:0 10px 24px rgba(105,45,78,.08);
-}
+.card {background:rgba(255,255,255,.94);border:1px solid var(--border);border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:0 10px 24px rgba(105,45,78,.08);}
 .soft {color:var(--muted) !important;}
-.note {
-  padding:13px 15px;
-  border-radius:14px;
-  background:linear-gradient(135deg,#FCE2ED 0%,#FFF4F8 100%);
-  border:1px solid #EFAFC9;
-  color:var(--rose-950) !important;
-  margin-bottom:14px;
-  box-shadow:0 6px 18px rgba(105,45,78,.07);
-}
+.note {padding:13px 15px;border-radius:14px;background:linear-gradient(135deg,#FCE2ED 0%,#FFF4F8 100%);border:1px solid #EFAFC9;color:var(--rose-950) !important;margin-bottom:14px;box-shadow:0 6px 18px rgba(105,45,78,.07);}
 .note * {color:var(--rose-950) !important;}
-
-/* Info / success / warning boxes */
-[data-testid="stAlert"] {
-  background:#FFF8FB !important;
-  border:1px solid var(--border) !important;
-  color:var(--text) !important;
-  border-radius:14px !important;
-}
+[data-testid="stAlert"] {background:#FFF8FB !important;border:1px solid var(--border) !important;color:var(--text) !important;border-radius:14px !important;}
 [data-testid="stAlert"] * {color:var(--text) !important;}
-
-/* Tabs */
-button[data-baseweb="tab"] {color:var(--muted) !important; font-weight:700 !important;}
+button[data-baseweb="tab"] {color:var(--muted) !important;font-weight:700 !important;}
 button[data-baseweb="tab"][aria-selected="true"] {color:var(--rose-900) !important;}
 [data-baseweb="tab-highlight"] {background:var(--rose-500) !important;}
-
-/* Inputs */
-[data-baseweb="input"] > div,
-[data-baseweb="textarea"] > div,
-[data-baseweb="select"] > div,
-.stTextInput input,
-.stTextArea textarea {
-  background:#FFFFFF !important;
-  color:var(--text) !important;
-  border-color:var(--border) !important;
-}
+[data-baseweb="input"] > div,[data-baseweb="textarea"] > div,[data-baseweb="select"] > div,.stTextInput input,.stTextArea textarea {background:#FFFFFF !important;color:var(--text) !important;border-color:var(--border) !important;}
 input, textarea {color:var(--text) !important;}
-
-/* Buttons */
-.stButton > button, .stDownloadButton > button, [data-testid="stLinkButton"] a {
-  background:linear-gradient(135deg,var(--rose-600),var(--rose-500)) !important;
-  color:white !important;
-  border:0 !important;
-  border-radius:11px !important;
-  font-weight:700 !important;
-  box-shadow:0 6px 16px rgba(178,69,121,.22) !important;
-}
-.stButton > button:hover, .stDownloadButton > button:hover, [data-testid="stLinkButton"] a:hover {
-  background:linear-gradient(135deg,var(--rose-700),var(--rose-600)) !important;
-  color:white !important;
-}
-
-/* Expanders */
-[data-testid="stExpander"] {
-  background:rgba(255,255,255,.82) !important;
-  border:1px solid var(--border) !important;
-  border-radius:13px !important;
-}
-[data-testid="stExpander"] summary * {color:var(--rose-900) !important; font-weight:700 !important;}
-
-/* Dataframes and charts */
-[data-testid="stDataFrame"] {
-  background:white !important;
-  border:1px solid var(--border) !important;
-  border-radius:14px !important;
-  overflow:hidden;
-}
-
+.stButton > button, .stDownloadButton > button, [data-testid="stLinkButton"] a {background:linear-gradient(135deg,var(--rose-600),var(--rose-500)) !important;color:white !important;border:0 !important;border-radius:11px !important;font-weight:700 !important;box-shadow:0 6px 16px rgba(178,69,121,.22) !important;}
+.stButton > button:hover, .stDownloadButton > button:hover, [data-testid="stLinkButton"] a:hover {background:linear-gradient(135deg,var(--rose-700),var(--rose-600)) !important;color:white !important;}
+[data-testid="stExpander"] {background:rgba(255,255,255,.86) !important;border:1px solid var(--border) !important;border-radius:13px !important;}
+[data-testid="stExpander"] summary * {color:var(--rose-900) !important;font-weight:700 !important;}
+[data-testid="stDataFrame"] {background:white !important;border:1px solid var(--border) !important;border-radius:14px !important;overflow:hidden;}
 hr {border-color:#EAB7CD !important;}
 a {color:var(--rose-700) !important;}
+.block-container {padding-top:2.2rem !important;padding-bottom:2.5rem !important;}
 
-/* Make the page breathe */
-.block-container {padding-top:2.2rem !important; padding-bottom:2.5rem !important;}
+/* Career Progress */
+.career-hero {
+  background:linear-gradient(135deg,#5A2346 0%,#8D3A68 58%,#C85E8C 100%);
+  color:#FFF9FC !important;
+  border-radius:20px;
+  padding:22px 24px;
+  margin:6px 0 18px;
+  box-shadow:0 14px 34px rgba(92,33,69,.20);
+}
+.career-hero * {color:#FFF9FC !important;}
+.career-hero .eyebrow {font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;opacity:.78;margin-bottom:5px;}
+.career-hero .headline {font-size:24px;font-weight:850;margin-bottom:4px;}
+.career-hero .subline {font-size:13px;opacity:.88;}
+.career-panel {
+  background:#FFFFFF;
+  border:1px solid #E7AFC6;
+  border-radius:18px;
+  padding:18px 18px 16px;
+  box-shadow:0 10px 28px rgba(105,45,78,.09);
+  min-height:250px;
+}
+.career-panel-title {font-size:16px;font-weight:800;color:#54203F !important;margin-bottom:3px;}
+.career-panel-sub {font-size:12px;color:#8B647B !important;margin-bottom:16px;}
+.career-bar-row {display:grid;grid-template-columns:150px 1fr 42px;gap:12px;align-items:center;margin:14px 0;}
+.career-bar-label {font-size:13px;font-weight:700;color:#4A2940 !important;}
+.career-track {height:12px;background:#F7E3EC;border-radius:999px;overflow:hidden;border:1px solid #F0C9D9;}
+.career-fill {height:100%;border-radius:999px;background:linear-gradient(90deg,#9E3F70,#E06B9A);min-width:0;}
+.career-count {font-size:13px;font-weight:800;color:#6F2A50 !important;text-align:right;}
+.pipeline-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.pipeline-card {border-radius:14px;padding:13px 14px;background:linear-gradient(180deg,#FFF7FB,#FBE8F1);border:1px solid #EFC3D6;}
+.pipeline-card .num {font-size:26px;font-weight:850;color:#54203F !important;line-height:1;}
+.pipeline-card .lbl {font-size:12px;font-weight:700;color:#8A5874 !important;margin-top:5px;}
+.empty-career {background:linear-gradient(135deg,#FFF7FB,#FBE6F0);border:1px dashed #D995B4;border-radius:16px;padding:19px;text-align:center;margin-top:14px;}
+.empty-career .big {font-size:28px;margin-bottom:5px;}.empty-career .title {font-weight:800;color:#54203F !important;}.empty-career .txt {font-size:12px;color:#8A6278 !important;margin-top:3px;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -280,7 +227,7 @@ elif section=="🇫🇮 Daily Finnish Trainer":
       "Vocabulary":("Select food/drink words",["maito","juna","leipä","kahvi","opettaja"],{"maito","leipä","kahvi"})}
     tabs=st.tabs(["📖 Reading","✍️ Writing","🎧 Listening","🎙️ Speaking","🧩 Grammar","🧠 Vocabulary"])
     with tabs[0]:
-        t,q,opts,correct=banks["Reading"]; st.write(t); a=st.radio(q,opts,index=None,key="read");
+        t,q,opts,correct=banks["Reading"]; st.write(t); a=st.radio(q,opts,index=None,key="read")
         if st.button("Score reading"): save_score("Reading",100 if a==correct else 0); st.rerun()
     with tabs[1]:
         txt=st.text_area("Write 3–5 simple Finnish sentences about yourself, your family, studies or today.")
@@ -329,12 +276,63 @@ elif section=="📋 My Applications":
     if rows: st.dataframe(rows,use_container_width=True,hide_index=True,column_config={"Official Link":st.column_config.LinkColumn("Official Link",display_text="Open")})
     else: st.info("No applications tracked yet.")
 elif section=="📊 Career Progress":
-    st.header("📊 Career Progress"); pipe=list(st.session_state.pipeline.values()); c=st.columns(5); c[0].metric("Tracked",len(pipe)+len(apps)); c[1].metric("Applied",sum(x.get("stage")=="Applied" for x in pipe)); c[2].metric("Replies",sum(x.get("stage")=="Email reply received" for x in pipe)); c[3].metric("Interviews",sum(x.get("stage")=="Interview" for x in pipe)); c[4].metric("Accepted",sum(x.get("stage")=="Accepted / Selected" for x in pipe)); mix=pd.DataFrame({"Count":[len(opps.get("church",[])),len(opps.get("academic",[])),len(opps.get("funding",[])),len(opps.get("other",[]))]},index=["Church","Academic","Funding","Academic development"]); st.bar_chart(mix)
+    pipe=list(st.session_state.pipeline.values())
+    tracked=len(pipe)+len(apps)
+    applied_count=sum(x.get("stage")=="Applied" for x in pipe)
+    replies=sum(x.get("stage")=="Email reply received" for x in pipe)
+    interviews=sum(x.get("stage")=="Interview" for x in pipe)
+    shortlisted=sum(x.get("stage")=="Shortlisted" for x in pipe)
+    accepted=sum(x.get("stage")=="Accepted / Selected" for x in pipe)
+    rejected=sum(x.get("stage")=="Rejected / Not selected" for x in pipe)
+    church_n=len(opps.get("church",[])); academic_n=len(opps.get("academic",[])); funding_n=len(opps.get("funding",[])); other_n=len(opps.get("other",[]))
+    total_opp=church_n+academic_n+funding_n+other_n
+
+    st.markdown("<div class='career-hero'><div class='eyebrow'>Career analytics</div><div class='headline'>📊 Career Progress</div><div class='subline'>A clear view of applications, responses and opportunity mix — tailored to Rukhsar's Finland-focused career path.</div></div>", unsafe_allow_html=True)
+
+    c=st.columns(5)
+    c[0].metric("Tracked",tracked)
+    c[1].metric("Applied",applied_count)
+    c[2].metric("Replies",replies)
+    c[3].metric("Interviews",interviews)
+    c[4].metric("Accepted",accepted)
+
+    left,right=st.columns([1.35,1])
+    with left:
+        max_opp=max(1,church_n,academic_n,funding_n,other_n)
+        bars=[
+            ("⛪ Church & Ecumenical",church_n),
+            ("🎓 Academic Jobs",academic_n),
+            ("💶 Funding & Grants",funding_n),
+            ("🌍 Academic Development",other_n),
+        ]
+        bar_html="".join(
+            f"<div class='career-bar-row'><div class='career-bar-label'>{label}</div><div class='career-track'><div class='career-fill' style='width:{round(100*value/max_opp) if value else 0}%'></div></div><div class='career-count'>{value}</div></div>"
+            for label,value in bars
+        )
+        empty_html="" if total_opp else "<div class='empty-career'><div class='big'>🌷</div><div class='title'>Opportunity tracking is ready</div><div class='txt'>Verified church, academic, funding and development opportunities will appear here as they are added.</div></div>"
+        st.markdown(f"<div class='career-panel'><div class='career-panel-title'>Opportunity Mix</div><div class='career-panel-sub'>Current verified opportunities by category</div>{bar_html}{empty_html}</div>",unsafe_allow_html=True)
+    with right:
+        st.markdown(f"""
+        <div class='career-panel'>
+          <div class='career-panel-title'>Application Pipeline</div>
+          <div class='career-panel-sub'>Movement from application to final decision</div>
+          <div class='pipeline-grid'>
+            <div class='pipeline-card'><div class='num'>{applied_count}</div><div class='lbl'>✅ Applied</div></div>
+            <div class='pipeline-card'><div class='num'>{replies}</div><div class='lbl'>📧 Email replies</div></div>
+            <div class='pipeline-card'><div class='num'>{interviews}</div><div class='lbl'>🎤 Interviews</div></div>
+            <div class='pipeline-card'><div class='num'>{shortlisted}</div><div class='lbl'>🟢 Shortlisted</div></div>
+            <div class='pipeline-card'><div class='num'>{accepted}</div><div class='lbl'>🏆 Accepted</div></div>
+            <div class='pipeline-card'><div class='num'>{rejected}</div><div class='lbl'>🔴 Not selected</div></div>
+          </div>
+        </div>
+        """,unsafe_allow_html=True)
+
+    st.markdown("<div class='note' style='margin-top:16px'><b>How this page works:</b> the cards update automatically from Rukhsar's saved opportunity stages. Rejected items remain in history instead of disappearing.</div>",unsafe_allow_html=True)
 elif section=="📚 Research Radar":
     st.header("📚 Biblical Studies Research Radar"); st.caption("Old Testament/Hebrew Bible · Hosea/prophets · suffering · gender · contextual interpretation · Pakistani Christianity · Finnish theology · conferences and methods"); st.caption(f"Updated: {radar.get('updated','Not listed')}")
     if not radar.get("items"): st.info("No verified research items added yet.")
     for x in radar.get("items",[]):
-        with st.container(border=True): st.caption(f"{x.get('date','Not listed')} · {x.get('category','Research')}"); st.subheader(x.get("headline","Untitled")); st.write(x.get("summary","")); st.markdown("**Why it matters:** "+x.get("why_it_matters","Needs review")); st.caption("Source: "+x.get("source","Not listed"));
+        with st.container(border=True): st.caption(f"{x.get('date','Not listed')} · {x.get('category','Research')}"); st.subheader(x.get("headline","Untitled")); st.write(x.get("summary","")); st.markdown("**Why it matters:** "+x.get("why_it_matters","Needs review")); st.caption("Source: "+x.get("source","Not listed"))
 elif section=="🧬 Rukhsar's Profile":
     st.header("🧬 Rukhsar's CV-based Profile")
     for label,key in [("Name","name"),("Current role","role"),("Location","location"),("Education","education"),("Finnish","finnish"),("Finnish course","course"),("Finnish target","target"),("Doctoral research","research"),("Academic focus","academic_focus"),("Church/community focus","church_focus"),("Profile strengths","strengths"),("Opportunity scope","scope")]: st.markdown(f"**{label}:** {PROFILE[key]}")
