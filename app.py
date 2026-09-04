@@ -28,13 +28,169 @@ PROFILE = {
 
 st.markdown("""
 <style>
-.stApp{background:linear-gradient(180deg,#24101F 0%,#351326 100%)}
-section[data-testid="stSidebar"]{background:#2B1024;border-right:1px solid #6F3158}
-div[data-testid="stMetric"]{background:#42182F;border:1px solid #7B365F;padding:14px 16px;border-radius:13px;box-shadow:0 8px 24px rgba(0,0,0,.16)}
-div[data-testid="stMetric"] label{color:#E9BFD5!important;font-weight:600} div[data-testid="stMetricValue"]{color:#FFF7FB!important}
-.card{background:#42182F;border:1px solid #7B365F;border-radius:14px;padding:15px;margin-bottom:14px}.soft{color:#E9BFD5}.note{padding:11px 13px;border-radius:10px;background:#5A2040;border:1px solid #9C4F7A;color:#FFE7F2;margin-bottom:12px}
-hr{border-color:#6F3158!important}
-</style>""", unsafe_allow_html=True)
+:root {
+  --rose-950:#3C1530;
+  --rose-900:#54203F;
+  --rose-800:#6E2A50;
+  --rose-700:#8E3B66;
+  --rose-600:#B24579;
+  --rose-500:#D95A91;
+  --rose-400:#EE86AF;
+  --rose-300:#F6B4CF;
+  --rose-200:#FAD7E6;
+  --rose-100:#FDEAF2;
+  --rose-50:#FFF7FB;
+  --cream:#FFFDFC;
+  --text:#3A2032;
+  --muted:#76536A;
+  --border:#EFC3D6;
+}
+
+html, body, [data-testid="stAppViewContainer"], .stApp {
+  background:
+    radial-gradient(circle at 82% 8%, rgba(238,134,175,.22), transparent 28%),
+    radial-gradient(circle at 18% 92%, rgba(246,180,207,.24), transparent 30%),
+    linear-gradient(180deg,#FFF9FC 0%,#FDF0F6 52%,#FFF8FB 100%) !important;
+  color:var(--text) !important;
+}
+
+[data-testid="stHeader"] {background:rgba(255,249,252,.96) !important;}
+[data-testid="stToolbar"] {color:var(--rose-900) !important;}
+
+section[data-testid="stSidebar"] {
+  background:linear-gradient(180deg,#FDE8F1 0%,#F8D8E6 100%) !important;
+  border-right:1px solid #E8AFC7 !important;
+}
+section[data-testid="stSidebar"] * {color:var(--rose-950) !important;}
+section[data-testid="stSidebar"] [role="radiogroup"] label {
+  padding:7px 9px;
+  border-radius:10px;
+  margin:2px 0;
+}
+section[data-testid="stSidebar"] [role="radiogroup"] label:hover {
+  background:rgba(255,255,255,.58);
+}
+
+h1,h2,h3,h4,h5,h6,
+[data-testid="stMarkdownContainer"],
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li,
+.stCaptionContainer,
+.stCaptionContainer p,
+label,
+.stText, .stMarkdown,
+p, span {color:var(--text);}
+
+h1 {
+  color:var(--rose-950) !important;
+  font-weight:800 !important;
+  letter-spacing:-0.02em;
+}
+h2,h3 {color:var(--rose-900) !important; font-weight:750 !important;}
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p {color:var(--muted) !important;}
+
+/* KPI cards */
+div[data-testid="stMetric"] {
+  background:rgba(255,255,255,.92) !important;
+  border:1px solid var(--border) !important;
+  padding:15px 16px !important;
+  border-radius:16px !important;
+  box-shadow:0 10px 26px rgba(105,45,78,.10) !important;
+}
+div[data-testid="stMetric"] label {color:var(--rose-700) !important; font-weight:700 !important;}
+div[data-testid="stMetricValue"] {color:var(--rose-950) !important; font-weight:800 !important;}
+div[data-testid="stMetricDelta"] {color:var(--rose-700) !important;}
+
+/* Containers / cards */
+[data-testid="stVerticalBlockBorderWrapper"] {
+  background:rgba(255,255,255,.78) !important;
+  border:1px solid var(--border) !important;
+  border-radius:16px !important;
+  box-shadow:0 8px 22px rgba(105,45,78,.07) !important;
+}
+.card {
+  background:rgba(255,255,255,.92);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:16px;
+  margin-bottom:14px;
+  box-shadow:0 10px 24px rgba(105,45,78,.08);
+}
+.soft {color:var(--muted) !important;}
+.note {
+  padding:13px 15px;
+  border-radius:14px;
+  background:linear-gradient(135deg,#FCE2ED 0%,#FFF4F8 100%);
+  border:1px solid #EFAFC9;
+  color:var(--rose-950) !important;
+  margin-bottom:14px;
+  box-shadow:0 6px 18px rgba(105,45,78,.07);
+}
+.note * {color:var(--rose-950) !important;}
+
+/* Info / success / warning boxes */
+[data-testid="stAlert"] {
+  background:#FFF8FB !important;
+  border:1px solid var(--border) !important;
+  color:var(--text) !important;
+  border-radius:14px !important;
+}
+[data-testid="stAlert"] * {color:var(--text) !important;}
+
+/* Tabs */
+button[data-baseweb="tab"] {color:var(--muted) !important; font-weight:700 !important;}
+button[data-baseweb="tab"][aria-selected="true"] {color:var(--rose-900) !important;}
+[data-baseweb="tab-highlight"] {background:var(--rose-500) !important;}
+
+/* Inputs */
+[data-baseweb="input"] > div,
+[data-baseweb="textarea"] > div,
+[data-baseweb="select"] > div,
+.stTextInput input,
+.stTextArea textarea {
+  background:#FFFFFF !important;
+  color:var(--text) !important;
+  border-color:var(--border) !important;
+}
+input, textarea {color:var(--text) !important;}
+
+/* Buttons */
+.stButton > button, .stDownloadButton > button, [data-testid="stLinkButton"] a {
+  background:linear-gradient(135deg,var(--rose-600),var(--rose-500)) !important;
+  color:white !important;
+  border:0 !important;
+  border-radius:11px !important;
+  font-weight:700 !important;
+  box-shadow:0 6px 16px rgba(178,69,121,.22) !important;
+}
+.stButton > button:hover, .stDownloadButton > button:hover, [data-testid="stLinkButton"] a:hover {
+  background:linear-gradient(135deg,var(--rose-700),var(--rose-600)) !important;
+  color:white !important;
+}
+
+/* Expanders */
+[data-testid="stExpander"] {
+  background:rgba(255,255,255,.82) !important;
+  border:1px solid var(--border) !important;
+  border-radius:13px !important;
+}
+[data-testid="stExpander"] summary * {color:var(--rose-900) !important; font-weight:700 !important;}
+
+/* Dataframes and charts */
+[data-testid="stDataFrame"] {
+  background:white !important;
+  border:1px solid var(--border) !important;
+  border-radius:14px !important;
+  overflow:hidden;
+}
+
+hr {border-color:#EAB7CD !important;}
+a {color:var(--rose-700) !important;}
+
+/* Make the page breathe */
+.block-container {padding-top:2.2rem !important; padding-bottom:2.5rem !important;}
+</style>
+""", unsafe_allow_html=True)
 
 def load_json(path, default):
     try: return json.loads((BASE/path).read_text(encoding="utf-8"))
