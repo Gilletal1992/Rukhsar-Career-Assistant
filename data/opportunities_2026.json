@@ -1,6 +1,48 @@
 {
-  "church": [],
-  "academic": [],
+  "church": [
+    {
+      "title": "Asiantuntija, ohjaus ja kehittäminen",
+      "organisation": "Tampereen hiippakunnan tuomiokapituli",
+      "country": "Finland",
+      "deadline": "16.09.2026 15:00",
+      "fit": 35,
+      "status": "MONITOR",
+      "link": "https://kirkkorekry.fi/fi/tyopaikat/asiantuntija-ohjaus-ja-kehittaminen-5220/",
+      "note": "Relevant church development/project profile, but requires excellent Finnish, adequate Swedish understanding, confirmed membership in the Evangelical Lutheran Church of Finland, and substantial church-work knowledge/experience. Not a current priority while Finnish is beginner level."
+    },
+    {
+      "title": "Kehitysvammaistyön pappi",
+      "organisation": "Kirkkohallitus / Kirkon ruotsinkielisen työn keskus",
+      "country": "Finland",
+      "deadline": "21.09.2026 15:00",
+      "fit": 10,
+      "status": "SKIP",
+      "link": "https://kirkkorekry.fi/fi/tyopaikat/kehitysvammaistyon-pappi-5213/",
+      "note": "Theological/church role in Helsinki, but requires ordination as an Evangelical Lutheran Church of Finland priest, excellent Swedish, good Finnish and relevant disability-work experience. Included as market intelligence, not an application recommendation."
+    }
+  ],
+  "academic": [
+    {
+      "title": "Associate Professor (Tenure Track) / Professor, Biblical Studies",
+      "institution": "University of Eastern Finland, School of Theology",
+      "country": "Finland",
+      "deadline": "14.09.2026 23:59",
+      "fit": 20,
+      "status": "SKIP",
+      "link": "https://uef.varbi.com/en/what:job/jobID:937888/",
+      "note": "Exceptionally relevant field and institution, but this is a senior Associate Professor/Professor recruitment and therefore above Rukhsar's current PhD-career stage. Useful for tracking the Finnish Biblical Studies market and future network."
+    },
+    {
+      "title": "University Researcher(s) in the Study of Ancient Near East",
+      "institution": "University of Helsinki / ANEE+",
+      "country": "Finland",
+      "deadline": "27.09.2026 23:59",
+      "fit": 30,
+      "status": "SKIP",
+      "link": "https://jobs.helsinki.fi/job/Helsinki-University-Researcher%28s%29-in-the-study-of-Ancient-Near-East/1370911857/",
+      "note": "Theology is an accepted background and the Ancient Near East theme overlaps with Biblical Studies, but the position requires a completed doctoral degree. Keep on radar for a future post-PhD stage."
+    }
+  ],
   "funding": [],
   "other": []
 }
