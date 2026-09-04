@@ -8,7 +8,7 @@
       "fit": 35,
       "status": "MONITOR",
       "link": "https://kirkkorekry.fi/fi/tyopaikat/asiantuntija-ohjaus-ja-kehittaminen-5220/",
-      "note": "Relevant church development/project profile, but requires excellent Finnish, adequate Swedish understanding, confirmed membership in the Evangelical Lutheran Church of Finland, and substantial church-work knowledge/experience. Not a current priority while Finnish is beginner level."
+      "note": "Relevant church development/project profile, but requires excellent Finnish and church-sector qualifications. Not a current priority while Finnish is beginner level."
     },
     {
       "title": "Kehitysvammaistyön pappi",
@@ -18,7 +18,7 @@
       "fit": 10,
       "status": "SKIP",
       "link": "https://kirkkorekry.fi/fi/tyopaikat/kehitysvammaistyon-pappi-5213/",
-      "note": "Theological/church role in Helsinki, but requires ordination as an Evangelical Lutheran Church of Finland priest, excellent Swedish, good Finnish and relevant disability-work experience. Included as market intelligence, not an application recommendation."
+      "note": "Requires ordination, excellent Swedish and good Finnish. Market intelligence only."
     }
   ],
   "academic": [
@@ -30,7 +30,7 @@
       "fit": 20,
       "status": "SKIP",
       "link": "https://uef.varbi.com/en/what:job/jobID:937888/",
-      "note": "Exceptionally relevant field and institution, but this is a senior Associate Professor/Professor recruitment and therefore above Rukhsar's current PhD-career stage. Useful for tracking the Finnish Biblical Studies market and future network."
+      "note": "Directly relevant field but senior level; useful market intelligence rather than a current application."
     },
     {
       "title": "University Researcher(s) in the Study of Ancient Near East",
@@ -40,9 +40,60 @@
       "fit": 30,
       "status": "SKIP",
       "link": "https://jobs.helsinki.fi/job/Helsinki-University-Researcher%28s%29-in-the-study-of-Ancient-Near-East/1370911857/",
-      "note": "Theology is an accepted background and the Ancient Near East theme overlaps with Biblical Studies, but the position requires a completed doctoral degree. Keep on radar for a future post-PhD stage."
+      "note": "Theology is relevant but a completed doctorate is required. Keep for post-PhD radar."
+    },
+    {
+      "title": "PYP Educational Assistant",
+      "institution": "International School of Helsinki",
+      "country": "Finland",
+      "deadline": "Not listed",
+      "fit": 88,
+      "status": "APPLY / REVIEW NOW",
+      "link": "https://ishelsinki.fi/Employment/",
+      "note": "English-medium school opportunity in Helsinki. Particularly relevant because Rukhsar has a BS in Education plus teaching, advising and student-support experience. Official ISH employment page currently lists this opening."
+    },
+    {
+      "title": "Substitute Teacher",
+      "institution": "International School of Helsinki",
+      "country": "Finland",
+      "deadline": "Not listed",
+      "fit": 82,
+      "status": "APPLY / REVIEW NOW",
+      "link": "https://ishelsinki.fi/Employment/",
+      "note": "English-medium substitute teaching opportunity in Helsinki. Good supplementary career track given Rukhsar's Education degree and several years of teaching experience. Check the official page for current qualification/document requirements."
     }
   ],
   "funding": [],
-  "other": []
+  "other": [
+    {
+      "title": "TRES Annual Seminar 2026 – Theology and Religious Studies Doctoral Researchers' Days",
+      "organisation": "University of Helsinki TRES / invited UEF doctoral researchers",
+      "country": "Finland",
+      "deadline": "Registration deadline was 31.08.2026",
+      "fit": 100,
+      "status": "ATTENDING / REGISTERED – DEVELOPMENT",
+      "link": "https://www.helsinki.fi/en/admissions-and-education/apply-doctoral-programmes/doctoral-programmes/doctoral-programme-theology-and-religious-studies",
+      "note": "17–18 September 2026, Hilton Strand Helsinki. Rukhsar's UEF supervisor specifically forwarded the invitation. Themes include international mobility for doctoral researchers, applying for funding/application evaluation, tacit knowledge in academia and integration of new doctoral researchers. Use this as a model for future doctoral-event searches."
+    },
+    {
+      "title": "International Summer School German (and) Theology 2027",
+      "organisation": "Johannes Gutenberg University Mainz – Faculty of Protestant Theology",
+      "country": "Germany",
+      "deadline": "15.04.2027",
+      "fit": 78,
+      "status": "PLAN / CHECK SCHOLARSHIP",
+      "link": "https://summer.theology.uni-mainz.de/application/",
+      "note": "28 June–16 July 2027. Open to postgraduate theology/religion students with good English and basic German. Includes 6 ECTS, accommodation and excursions; limited grants are available. International academic-development opportunity, not employment."
+    },
+    {
+      "title": "2026 Emerging Scholarship Conference – Biblical Studies and Related Fields",
+      "organisation": "Catholic Biblical Association / Emerging Scholarship Conference",
+      "country": "International academic development",
+      "deadline": "28.09.2026",
+      "fit": 92,
+      "status": "HIGH PRIORITY – REVIEW CFP",
+      "link": "https://ctsa-online.org/Newsfeed/13667719",
+      "note": "Call welcomes doctoral students and postdoctoral researchers in biblical studies and related fields. Proposal 250–500 words due 28 September 2026. Strong fit for Rukhsar's Biblical Studies/Old Testament research; verify event logistics on the organiser page before submission."
+    }
+  ]
 }
