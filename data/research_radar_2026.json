@@ -1,4 +1,41 @@
 {
-  "updated": "Not listed",
-  "items": []
+  "updated": "04.09.2026",
+  "items": [
+    {
+      "date": "04.09.2026",
+      "category": "Hosea / Hebrew Bible",
+      "headline": "New discussion of Hosea 6:7 and the meaning of the covenant reference",
+      "summary": "A new article published today revisits Hosea 6:7 and the interpretive question whether the text means 'like Adam', 'like men', or refers to a place called Adam. It is useful as a current example of how translation, covenant language and textual interpretation continue to shape Hosea scholarship.",
+      "why_it_matters": "Directly relevant to Rukhsar's Hosea research because it shows a live interpretive debate around wording, metaphor and theological reception in Hosea.",
+      "source": "The Heidelblog",
+      "link": "https://heidelblog.net/2026/09/on-hosea-67-and-the-covenant-of-works/"
+    },
+    {
+      "date": "04.09.2026",
+      "category": "Gender / Reception History",
+      "headline": "Upcoming Helsinki lecture: The Suppressed Mother — Sarah and Khadijah in Muslim and Jewish traditions",
+      "summary": "The University of Helsinki's 2026/27 public lecture series lists a Zoom lecture for 17 September examining Sarah and Khadijah through reception history and the suppression of feminine authority across religious and scholarly traditions.",
+      "why_it_matters": "Highly relevant to Rukhsar's interest in gendered interpretation, reception history and the treatment of female figures across religious traditions; it is also accessible online from Finland.",
+      "source": "University of Helsinki",
+      "link": "https://blogs.helsinki.fi/islamic-studies-and-theology/news-activities/middle-east-and-islamic-studies-lecture-series/public-lecture-series-program-2026-27/"
+    },
+    {
+      "date": "04.09.2026",
+      "category": "Biblical Studies / Call for Papers",
+      "headline": "SBL call for papers: New Approaches to Biblical Literary Studies",
+      "summary": "The Society of Biblical Literature lists a call for papers closing on 30 September 2026 for New Approaches to Biblical Literary Studies, with an explicitly multidisciplinary framing around biblical literatures, the Bible as literature and the Bible in literature.",
+      "why_it_matters": "Potentially useful for developing conference-paper ideas around Hosea, metaphor, gender, reception and literary interpretation. Eligibility and submission details should be checked on the official SBL page before applying.",
+      "source": "Society of Biblical Literature",
+      "link": "https://www.sbl-site.org/events/list/"
+    },
+    {
+      "date": "04.09.2026",
+      "category": "Religion / Gender / Education",
+      "headline": "UEF conference highlights minorities, women and identity in religious education",
+      "summary": "The University of Eastern Finland's OCREA 20th-anniversary conference runs 2–4 September 2026 in Joensuu. The programme includes papers on Roma women in religious education, minority teachers, identity markers and religious educational spaces.",
+      "why_it_matters": "Relevant to Rukhsar's wider profile in theology, education, gender, minority Christianity and contextual/reception-oriented work, and useful for identifying nearby researchers and themes at UEF.",
+      "source": "University of Eastern Finland",
+      "link": "https://sites.uef.fi/ocrea20/conference-programme/"
+    }
+  ]
 }
